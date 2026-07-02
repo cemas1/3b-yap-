@@ -1,24 +1,36 @@
-# 3B Yapı Winsa Showcase
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Bu proje, "3B Yapı" Winsa bayiliği için hazırlanmış profesyonel, modern ve yönetilebilir bir ürün vitrini web sitesidir.
-Site tamamen **HTML, CSS ve Vanilla JavaScript** ile yazılmış olup, harici bir veritabanına ihtiyaç duymadan Google API üzerinden verileri çekebilecek şekilde tasarlanmıştır.
+## Getting Started
 
-## Siteyi Alan Kişi Nasıl Ürün Ekleyecek?
+First, run the development server:
 
-Bu sitenin en büyük özelliği, alan kişinin (müşterinin) hiçbir kod bilmeden siteye yeni ürünler ekleyebilmesidir.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-1. `index.html` dosyasının en altındaki `<script>` bölümünde yer alan `googleStickApiKey` değişkenini kendi API anahtarınız ile değiştirin.
-2. Müşteri (örneğin Google Sheets veya Google Apps Script üzerinden) listesine yeni bir Winsa ürünü eklediğinde, site açılışında `fetchProducts()` fonksiyonu bu API'ye otomatik olarak bağlanır.
-3. Yeni ürünler sayfada şık kartlar (resim, başlık ve açıklama) halinde sergilenir.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Özellikler
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-*   **Mobil Uyumlu (Responsive):** Telefon, tablet ve bilgisayarlarda kusursuz görünür.
-*   **Modern Renk Paleti:** Winsa Mavisi ve Koyu Antrasit tonları (Kurumsal kimliğe uygun).
-*   **Hızlı Yüklenme:** Sayfa içi CSS ve JS kullanıldığı için harici kütüphane yükünü azaltır ve SEO dostudur.
-*   **Tak-Çalıştır Veri Çekme:** JavaScript API Entegrasyonu hazırdır. Sadece gerçek Endpoint URL'sini girmeniz yeterlidir.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## İletişim & Destek
+## Learn More
 
-Bu temanın tasarımı Yapay Zeka Ajansı (Yaayzeka) tarafından planlanmış ve Baş Yazılım Mühendisi tarafından kodlanmıştır.
-Geliştirici: [GitHub/cenas1905](https://github.com/cenas1905)
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,0 +1,68 @@
+{
+  "site": {
+    "title": "3B Yapı | Winsa Showcase & Aynacılık",
+    "description": "Eviniz ve işyeriniz için üstün Winsa kalitesi ve özel tasarım ayna çözümleri.",
+    "phone": "+90 555 555 55 55",
+    "email": "info@3byapi.com",
+    "address": "İstanbul, Türkiye"
+  },
+  "hero": {
+    "heading": "Kaliteyi Yaşam Alanlarınıza Taşıyın",
+    "subheading": "Winsa güvencesiyle yenilikçi pencere ve kapı sistemleri. Özel tasarım aynacılık çözümleri ile mekanlarınıza derinlik katın.",
+    "cta_text": "Ürünlerimizi Keşfedin",
+    "image": "/images/hero-bg.jpg"
+  },
+  "about": {
+    "title": "Biz Kimiz?",
+    "description": "3B Yapı olarak yılların getirdiği tecrübe ile yaşam alanlarınızı güzelleştiriyoruz. Winsa bayiliğimiz ile yüksek yalıtımlı, estetik ve dayanıklı pencere/kapı sistemleri sunarken, kendi atölyemizde hazırladığımız özel tasarım aynalarla mekanlarınıza şıklık katıyoruz.",
+    "image": "/images/about-img.jpg"
+  },
+  "winsa_products": {
+    "title": "Winsa Sistemleri",
+    "description": "Her mekana ve ihtiyaca uygun, yüksek yalıtımlı, dayanıklı ve estetik Winsa profil sistemleri.",
+    "items": [
+      {
+        "id": "w1",
+        "name": "Dorado 76",
+        "description": "Üstün ses ve ısı yalıtımı sağlayan 76 mm genişliğinde premium seri.",
+        "image": "/images/winsa-1.jpg"
+      },
+      {
+        "id": "w2",
+        "name": "Safir",
+        "description": "Zarif hatları ve modern tasarımıyla öne çıkan standart üstü pencere sistemi.",
+        "image": "/images/winsa-2.jpg"
+      },
+      {
+        "id": "w3",
+        "name": "Comfort Slide",
+        "description": "Mekanlarınıza ferahlık katan, kolay kullanımlı sürme kapı sistemi.",
+        "image": "/images/winsa-3.jpg"
+      }
+    ]
+  },
+  "mirrors": {
+    "title": "Ayna ve Cam Tasarımları",
+    "description": "Özel ölçü, dekoratif, baklava dilimli, ledli ve daha birçok ayna modeli ile mekanlarınızı dönüştürün.",
+    "items": [
+      {
+        "id": "m1",
+        "name": "Dekoratif Duvar Aynaları",
+        "description": "Modern ve klasik tarzlara uygun, mekana derinlik katan şık tasarımlar.",
+        "image": "/images/mirror-1.jpg"
+      },
+      {
+        "id": "m2",
+        "name": "Baklava Dilimli Aynalar",
+        "description": "Özellikle salon ve antreler için tercih edilen, gösterişli ve klasik bir dokunuş.",
+        "image": "/images/mirror-2.jpg"
+      },
+      {
+        "id": "m3",
+        "name": "LED Aydınlatmalı Aynalar",
+        "description": "Banyolar ve makyaj masaları için modern, şık ve fonksiyonel çözüm.",
+        "image": "/images/mirror-3.jpg"
+      }
+    ]
+  }
+}
