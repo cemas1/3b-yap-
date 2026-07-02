@@ -29,13 +29,20 @@
   font-size: 1.5rem;
 }
 
+.logoWrapper {
+  background-color: #ffffff;
+  padding: 4px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
 .winsaLogoImg {
   height: 35px;
   width: auto;
-}
-
-.header:not(.scrolled) .winsaLogoImg {
-  filter: brightness(0) invert(1);
+  border-radius: 4px;
 }
 
 .separator {
