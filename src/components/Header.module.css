@@ -1,0 +1,100 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1.5rem 0;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.scrolled {
+  background-color: #ffffff;
+  padding: 1rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.winsaLogo {
+  display: flex;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.w {
+  color: var(--color-accent); /* Red W */
+}
+
+.insa {
+  color: var(--color-primary); /* Blue insa */
+}
+
+.header:not(.scrolled) .w, .header:not(.scrolled) .insa {
+  color: #ffffff;
+}
+
+.separator {
+  margin: 0 0.5rem;
+  color: var(--color-accent);
+}
+
+.bayi {
+  color: var(--color-text);
+}
+
+.header:not(.scrolled) .bayi {
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav a {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.header:not(.scrolled) .nav a:not(.btn) {
+  color: #ffffff;
+}
+
+.header:not(.scrolled) .nav a:not(.btn):hover {
+  color: var(--color-accent);
+}
+
+.scrolled .nav a:not(.btn) {
+  color: var(--color-primary);
+}
+
+.scrolled .nav a:not(.btn):hover {
+  color: var(--color-accent);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}

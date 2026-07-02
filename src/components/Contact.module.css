@@ -1,8 +1,17 @@
-.footer {
+.sectionFull {
+  height: 100%;
+  width: 100%;
   background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.footerContent {
+  width: 100%;
   border-top: 5px solid var(--color-accent);
   padding-top: 4rem;
-  color: #ffffff;
 }
 
 .footerContainer {

@@ -1,8 +1,8 @@
 import styles from './Showcase.module.css';
 
-export default function Showcase({ data, id }) {
+export default function Showcase({ data }) {
   return (
-    <section id={id} className="section" style={{ backgroundColor: 'var(--color-surface)' }}>
+    <section className={styles.sectionFull} style={{ backgroundColor: 'var(--color-surface)' }}>
       <div className="container">
         <h2 className="section-title">{data.title}</h2>
         <p className="section-subtitle">{data.description}</p>

@@ -5,7 +5,7 @@ export default function About() {
   const { about } = content;
 
   return (
-    <section id="about" className="section">
+    <section className={styles.sectionFull}>
       <div className={`container ${styles.aboutContainer}`}>
         <div className={styles.imageWrapper}>
           <img src={about.image} alt="Hakkımızda" className={styles.image} />
