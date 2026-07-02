@@ -25,11 +25,11 @@ export default function Header() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.headerContainer}`}>
         <div className={styles.logo}>
-          <div className={styles.logoWrapper}>
-            <img src="/images/logo.png" alt="3B Yapı" className={styles.winsaLogoImg} />
+          <div className={styles.textLogo}>
+            <span className={styles.textLogoBold}>3B</span> YAPI
           </div>
           <span className={styles.separator}>|</span>
-          <span className={styles.bayi}>3B Yapı</span>
+          <span className={styles.bayi}>Winsa Showcase</span>
         </div>
         <nav className={styles.nav}>
           <a href="#hero">Anasayfa</a>

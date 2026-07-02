@@ -29,20 +29,28 @@
   font-size: 1.5rem;
 }
 
-.logoWrapper {
-  background-color: #ffffff;
-  padding: 4px;
-  border-radius: 8px;
+.textLogo {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: var(--color-primary);
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-right: 10px;
 }
 
-.winsaLogoImg {
-  height: 35px;
-  width: auto;
-  border-radius: 4px;
+.textLogoBold {
+  font-weight: 800;
+  color: var(--color-accent);
+  margin-right: 4px;
+}
+
+.header:not(.scrolled) .textLogo {
+  color: #ffffff;
+}
+
+.header:not(.scrolled) .textLogoBold {
+  color: #ffffff;
 }
 
 .separator {
