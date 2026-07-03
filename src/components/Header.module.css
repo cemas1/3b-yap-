@@ -96,7 +96,27 @@
 }
 
 @media (max-width: 768px) {
-  .nav {
+  .nav a:not(.btn) {
     display: none;
+  }
+  .nav {
+    gap: 0;
+  }
+  .header {
+    padding: 1rem 0;
+  }
+  .textLogo {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+  .separator {
+    display: none;
+  }
+  .bayi {
+    display: none;
+  }
+  .btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.8rem;
   }
 }

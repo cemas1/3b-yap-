@@ -79,3 +79,25 @@
   font-size: 1.25rem;
   color: var(--color-primary);
 }
+
+@media (max-width: 768px) {
+  .sectionFull {
+    display: block; /* Remove flex center */
+  }
+  .grid {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+    padding-bottom: 2rem;
+  }
+  .overlay {
+    opacity: 1; /* Always show overlay text on mobile */
+    background: linear-gradient(to top, rgba(0, 59, 115, 0.9) 0%, transparent 100%);
+    align-items: flex-end;
+    padding-bottom: 1rem;
+  }
+  .overlayContent {
+    transform: translateY(20px); /* Adjust spacing */
+  }
+  .cardBody {
+    display: none; /* Hide card body since overlay is permanent */
+  }
+}

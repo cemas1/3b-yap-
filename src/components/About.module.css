@@ -49,5 +49,18 @@
 @media (max-width: 768px) {
   .aboutContainer {
     flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .imageWrapper {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .imageAccent {
+    display: none; /* Hide accent on mobile to save space */
+  }
+  .description {
+    font-size: 1rem;
   }
 }
