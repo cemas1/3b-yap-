@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import FullscreenSection from '@/components/FullscreenSection';
 import Contact from '@/components/Contact';
+import Brands from '@/components/Brands';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState(0);
@@ -12,6 +13,7 @@ export default function Home() {
   // Combine all items into a linear array of sections
   const sections = [
     { id: 'hero', component: <Hero key="hero" /> },
+    { id: 'brands', component: <Brands key="brands" /> },
     { id: 'about', component: <FullscreenSection key="about" item={{...content.about, name: content.about.title}} /> },
     ...content.winsa_products.items.map(item => ({
       id: item.id,
